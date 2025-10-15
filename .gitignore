@@ -1,0 +1,24 @@
+    # Node.js dependencies
+    node_modules/
+
+    # Build files
+    .next/
+
+    # Cache directory
+    .cache/
+
+    # Local development
+    .env.local
+
+    # IDE specific files
+    .idea/
+    .vscode/
+
+    # OS specific
+    .DS_Store
+
+    # TypeScript configuration
+    .tsbuildinfo
+node_modules
+.next
+.cache
