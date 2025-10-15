@@ -11,31 +11,31 @@ const headingData = {
   };
   
   const aboutData = {
-    sectionSubtitle: 'OUR ABOUT US',
-    sectionTitle: 'More Than 26+ Years About Provide Medical.',
+    sectionSubtitle: 'ABOUT US',
+    sectionTitle: 'More Than 9+ Years About Provide Medical.',
     aboutText:
       'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
     service:
       "There are many variations of pass available this medical service the team <a href='#''>READ MORE +</a>",
-    experienceYears: '26+',
+    experienceYears: '9+',
     experienceTitle: 'Experience',
     videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
     videoText: 'How We Work',
     iconboxes: [
       {
         imgUrl: '/assets/img/icons/about_icon_1.png',
-        title: 'Client Support',
+        title: 'Member Support',
         subtitle: 'But must explain to you medical of and pain was.',
       },
       {
         imgUrl: '/assets/img/icons/about_icon_2.png',
-        title: 'Doctor Support',
+        title: 'Professional Outreach',
         subtitle: 'But must explain to you medical of and pain was.',
       },
     ],
   
     btnUrl: '/about',
-    btnText: 'About More',
+    btnText: 'More about Us ...',
     sectionImgUrl: '/assets/img/about_section_img_1.png',
     headImgUrl: '/assets/img/about_img_7.jpeg',
   };
@@ -43,33 +43,33 @@ const headingData = {
   const counterData = [
     {
       iconSrc: '/assets/img/icons/counter_icon_1.png',
-      countTo: 567,
+      countTo: 11,
       suffix: '+',
-      title: 'Active Clients',
+      title: 'Active Members',
     },
     {
       iconSrc: '/assets/img/icons/counter_icon_2.png',
       countTo: 23,
       suffix: 'K+',
-      title: 'Team Support',
+      title: 'Contributions',
     },
     {
       iconSrc: '/assets/img/icons/counter_icon_3.png',
-      countTo: 241,
+      countTo: 5,
       suffix: '+',
-      title: 'Projects Completed',
+      title: 'Investment Portfolios',
     },
     {
       iconSrc: '/assets/img/icons/counter_icon_4.png',
-      countTo: 16,
-      suffix: 'K+',
-      title: 'Award winner',
+      countTo: 4,
+      suffix: '+',
+      title: 'Get Togethers',
     },
   ];
   
   const teamData = {
-    subtitle: 'OUR TEAM MEMBER',
-    title: ' Meet Our Specialist This <br />Doctor Meeting',
+    subtitle: 'OUR MEMBERS',
+    title: ' Meet The Decagon Pride Group <br />Team Members',
     sliderData: [
       {
         name: 'Dr. Norma Pedric',
@@ -127,12 +127,12 @@ const headingData = {
   const ctaData = {
     videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
     videoButtonText: 'WATCH VIDEO',
-    subtitle: 'OUR WATCH VIDEO',
-    title: 'Professional Medical Care Measure Medical.',
+    subtitle: 'OUR HIGHLIGHT VIDEO',
+    title: 'A word from the DPG chairperson',
     description:
       'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
     buttonLink: '/contact',
-    buttonText: 'Video More',
+    buttonText: 'More Videos',
     brandImage: '/assets/img/medical_brand.png',
   };
 

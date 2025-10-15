@@ -19,21 +19,29 @@ const Header = ({ isTopBar, variant }) => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isSticky, setIsSticky] = useState();
   const menu = {
-    email: 'demo@example.com',
-    location: '15/K, Dhaka London City, LOT',
+    email: 'info@decagonpride.com',
+    location: 'Nairobi City, Kenya',
     logoUrl: '/assets/img/logo.svg',
     logoLink: '/',
     navItems: [
       {
         label: 'Home',
         href: '/',
+        // subItems: [
+        //   { label: 'Main Home', href: '/' },
+        //   { label: 'Home V2', href: '/home-v2' },
+        //   { label: 'Home V3', href: '/home-v3' },
+        // ],
+      },
+      { label: 'About', 
+        href: '/about',
         subItems: [
-          { label: 'Main Home', href: '/' },
-          { label: 'Home V2', href: '/home-v2' },
-          { label: 'Home V3', href: '/home-v3' },
+          { label: 'About Us', href: '/about' },
+          { label: 'Group Welfare', href: '/about' },
+          { label: 'Investment Kitty', href: '/about' },
+          { label: 'Member Login', href: '/decasoft' },
         ],
       },
-      { label: 'About', href: '/about' },
       {
         label: 'Service',
         href: '/service',
@@ -48,6 +56,15 @@ const Header = ({ isTopBar, variant }) => {
         subItems: [
           { label: 'Blog List', href: '/blog' },
           { label: 'Blog Details', href: '/blog/blog-details' },
+        ],
+      },
+      {
+        label: 'CSR',
+        href: '/',
+        subItems: [
+          { label: 'CSR 1', href: '/' },
+          { label: 'CSR 2', href: '/' },
+          { label: 'CSR 3', href: '/' },
         ],
       },
       {

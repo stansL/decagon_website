@@ -19,7 +19,7 @@ const ContactSection2 = () => {
               <p className="cs_section_subtitle cs_accent_color">
                 <span className="cs_shape_left"></span>CONTACT US
               </p>
-              <h2 className="cs_section_title">Make An Appointment <br/>Apply For Treatments</h2>
+              <h2 className="cs_section_title">Reach Out To Us</h2>
             </div>
             <div className="cs_height_25 cs_height_lg_25"></div>
             <form className="cs_contact_form row cs_gap_y_30 home_form_area">

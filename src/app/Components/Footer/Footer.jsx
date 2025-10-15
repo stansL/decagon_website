@@ -20,11 +20,11 @@ const data = {
     },
     {
       icon: 'fa-solid fa-location-dot',
-      text: '13/A, Miranda Halim City.',
+      text: 'Karen, Nairobi City.',
     },
     {
       icon: 'fa-solid fa-phone',
-      text: '099 695 695 35',
+      text: '+254 722 62 11 58',
     },
   ],
   socialLinks: [
@@ -69,7 +69,7 @@ const data = {
       title: 'The Medical Of This Working Health',
     },
   ],
-  copyrightText: 'Copyright © 2024 Medilo, All Rights Reserved.',
+  copyrightText: 'Copyright © 2025 DPG, All Rights Reserved.',
   footerMenu: [
     { href: 'about.html', text: 'About Us' },
     { href: '#', text: 'Events' },
@@ -84,8 +84,8 @@ const Footer = () => {
     logo: '/assets/img/footer_logo.svg',
     contactText:
       'Open Hours of Government: <br /> Mon - Fri: 8.00 am. - 6.00 pm.',
-    contactText2: '13/A, Miranda Halim City.',
-    contactText3: '099 695 695 35',
+    contactText2: 'Karen, Nairobi City.',
+    contactText3: '+254 722 62 11 58',
     facebookHref: '/',
     pinterestHref: '/',
     twitterHref: '/',
@@ -94,11 +94,11 @@ const Footer = () => {
       {
         title: 'Service',
         links: [
-          { href: '/service/service-details', text: 'Plastic Surgery' },
-          { href: '/service/service-details', text: 'Pharmacology' },
+          { href: '/service/service-details', text: 'CSR 4' },
+          { href: '/service/service-details', text: 'CSR 1' },
           { href: '/service/service-details', text: 'Dental Care' },
           { href: '/service/service-details', text: 'Dental Care' },
-          { href: '/service/service-details', text: 'Orthopedic' },
+          { href: '/service/service-details', text: 'CSR 2' },
         ],
       },
       {
@@ -126,7 +126,7 @@ const Footer = () => {
         title: 'The Medical Of This Working Health',
       },
     ],
-    copyrightText: 'Copyright © 2024 Medilo, All Rights Reserved.',
+    copyrightText: 'Copyright © 2025 DPG, All Rights Reserved.',
     footerMenu: [
       { href: '/about', text: 'About Us' },
       { href: '/', text: 'Events' },
