@@ -8,7 +8,7 @@ const headingData = {
   };
   
   const projectsSectionData = {
-    sectionTitle: 'All The Great Work That Medical Service',
+    sectionTitle: 'All The Great Work At Decagon Pride',
     sectionSubtitle: 'OUR PORTFOLIO',
     sectionDescription:
       'We are privileged to work with hundreds of future-thinking medical, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',

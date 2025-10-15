@@ -87,11 +87,11 @@ const heroData = {
   const aboutData = {
     aboutImage: '/assets/img/about_img_6.png',
     subtitle: 'OUR ABOUT US',
-    title: 'More Than 26+ Years About Provide Medical.',
+    title: 'More Than 9+ Years About Provide Medical.',
     description:
       'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
     experienceBg: '/assets/img/experience_bg.jpg',
-    experienceNumber: '26+',
+    experienceNumber: '9+',
     experienceTitle: 'Experience',
     iconBoxes: [
       {

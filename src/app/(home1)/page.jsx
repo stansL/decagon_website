@@ -18,11 +18,11 @@ const heroData = {
     primarySlider: [
       {
         bgImageUrl: '/assets/img/hero_slider_3.jpg',
-        title: 'We Hospital Doctors Patients <span>Service.</span>',
+        title: 'Decagon Pride Group <span>The Pride Counts!.</span>',
         contactSubtitle:
-          'Medical ers piciatis unde omnis iste natus this the word medical this mountains, far from the countries Vokalia and, live the docor white teeth sitting on a dental for best medical.',
-        contactTitle: 'Receive Medical Service.',
-        contact: 'Call Us at: (+2) 56 54 1453',
+          'At Decagon Pride, we believe in the power of collective effort. Through regular savings, investments, and welfare programs, we provide a dependable support system that enables every member to thrive—financially, socially, and personally.',
+        contactTitle: 'Reach Out To Us.',
+        contact: 'Call Us at: (+254) 722 62 11 58',
         btnText1: 'Contact Now',
         link: '/contact',
         btnText2: 'Discover More',
@@ -31,11 +31,11 @@ const heroData = {
       },
       {
         bgImageUrl: '/assets/img/hero_slider_2.jpg',
-        title: 'Your Center for <br>Mental <span>Health.</span>',
+        title: 'Financial <span>Empowerment.</span>',
         contactSubtitle:
           'Medical ers piciatis unde omnis iste natus this the word medical this mountains, far from the countries Vokalia and, live the docor white teeth sitting on a dental for best medical.',
-        contactTitle: 'Receive Medical Service.',
-        contact: 'Call Us at: (+2) 56 54 1453',
+        contactTitle: 'Reach Out To Us.',
+        contact: 'Call Us at: (+254) 722 62 11 58',
         btnText1: 'Contact Now',
         link: '/contact',
         btnText2: 'Discover More',
@@ -44,11 +44,37 @@ const heroData = {
       },
       {
         bgImageUrl: '/assets/img/hero_slider_1.jpg',
-        title: 'We Hospital Doctors Patients <span>Service.</span>',
+        title: 'Welfare <br><span>Support.</span>',
         contactSubtitle:
           'Medical ers piciatis unde omnis iste natus this the word medical this mountains, far from the countries Vokalia and, live the docor white teeth sitting on a dental for best medical.',
-        contactTitle: 'Receive Medical Service.',
-        contact: 'Call Us at: (+2) 56 54 1453',
+        contactTitle: 'Reach Out To Us.',
+        contact: 'Call Us at: (+254) 722 62 11 58',
+        btnText1: 'Contact Now',
+        link: '/contact',
+        btnText2: 'Discover More',
+        link2: '/about',
+        iconImgUrl: '/assets/img/icons/hero_icon.png',
+      },      
+      {
+        bgImageUrl: '/assets/img/hero_slider_1.jpg',
+        title: 'Community  <br><span>Engagement .</span>',
+        contactSubtitle:
+          'Medical ers piciatis unde omnis iste natus this the word medical this mountains, far from the countries Vokalia and, live the docor white teeth sitting on a dental for best medical.',
+        contactTitle: 'Reach Out To Us.',
+        contact: 'Call Us at: (+254) 722 62 11 58',
+        btnText1: 'Contact Now',
+        link: '/contact',
+        btnText2: 'Discover More',
+        link2: '/about',
+        iconImgUrl: '/assets/img/icons/hero_icon.png',
+      },      
+      {
+        bgImageUrl: '/assets/img/hero_slider_1.jpg',
+        title: 'Sustainability  <br>and <span>Growth.</span>',
+        contactSubtitle:
+          'Medical ers piciatis unde omnis iste natus this the word medical this mountains, far from the countries Vokalia and, live the docor white teeth sitting on a dental for best medical.',
+        contactTitle: 'Reach Out To Us.',
+        contact: 'Call Us at: (+254) 722 62 11 58',
         btnText1: 'Contact Now',
         link: '/contact',
         btnText2: 'Discover More',
@@ -60,43 +86,45 @@ const heroData = {
       '/assets/img/hero_slider_sm_1.png',
       '/assets/img/hero_slider_sm_2.png',
       '/assets/img/hero_slider_sm_3.png',
+      '/assets/img/hero_slider_sm_3.png',
+      '/assets/img/hero_slider_sm_3.png',
     ],
   };
   
   const ctaData = {
     imageUrl: '/assets/img/cta_img_1.jpg',
-    title: 'Meet The Team Support Medical Service.',
-    subtitle: 'For us, there are no minor aspects, because a quality',
+    title: 'Meet The DPG Team!',
+    subtitle: 'Care to discuss your financial goals with us?',
     buttonUrl: '/appointments',
     buttonText: 'Booking Now',
   };
   
   const aboutData = {
-    sectionSubtitle: 'OUR ABOUT US',
-    sectionTitle: 'More Than 26+ Years About Provide Medical.',
+    sectionSubtitle: 'ABOUT US',
+    sectionTitle: 'More Than 9+ Years About Provide Medical.',
     aboutText:
       'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
     service:
       "There are many variations of pass available this medical service the team <a href='#''>READ MORE +</a>",
-    experienceYears: '26+',
+    experienceYears: '9+',
     experienceTitle: 'Experience',
     videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
     videoText: 'How We Work',
     iconboxes: [
       {
         imgUrl: '/assets/img/icons/about_icon_1.png',
-        title: 'Client Support',
+        title: 'Member Support',
         subtitle: 'But must explain to you medical of and pain was.',
       },
       {
         imgUrl: '/assets/img/icons/about_icon_2.png',
-        title: 'Doctor Support',
+        title: 'Professional Outreach',
         subtitle: 'But must explain to you medical of and pain was.',
       },
     ],
   
     btnUrl: '/about',
-    btnText: 'About More',
+    btnText: 'More About Us ...',
     sectionImgUrl: '/assets/img/about_section_img_1.png',
     headImgUrl: '/assets/img/about_img_1.jpg',
   };
@@ -104,13 +132,13 @@ const heroData = {
   const countersData = [
     {
       iconUrl: '/assets/img/icons/counter_icon_1.png',
-      number: '567+',
-      title: 'Active Clients',
+      number: '11',
+      title: 'Active Members',
     },
     {
       iconUrl: '/assets/img/icons/counter_icon_2.png',
       number: '23K+',
-      title: 'Team Support',
+      title: 'Contributions',
     },
     {
       iconUrl: '/assets/img/icons/counter_icon_3.png',
@@ -119,14 +147,14 @@ const heroData = {
     },
     {
       iconUrl: '/assets/img/icons/counter_icon_4.png',
-      number: '16K+',
-      title: 'Award Winner',
+      number: '4+',
+      title: 'Get Togethers',
     },
   ];
   
   const serviceData = {
-    subtitle: 'OUR BEST SERVICE',
-    title: 'High-Quality Services This Doctor',
+    subtitle: 'OUR CSR ACTIVITIES',
+    title: 'Community Social Responsibility Services',
     description:
       'We are privileged to work with hundreds of future-thinking medial,<br> including many of the world’s top hardware, software, and<br> brands, feel safe and comfortable in establishing.',
     services: [
@@ -134,7 +162,7 @@ const heroData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_1.png',
         index: '01',
-        title: 'Pharmacology',
+        title: 'CSR 1',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
@@ -142,7 +170,7 @@ const heroData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_2.png',
         index: '02',
-        title: 'Orthopedic',
+        title: 'CSR 2',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
@@ -150,7 +178,7 @@ const heroData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_3.png',
         index: '03',
-        title: 'Hematology',
+        title: 'CSR 3',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
@@ -158,7 +186,7 @@ const heroData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_4.png',
         index: '04',
-        title: 'Plastic Surgery',
+        title: 'CSR 4',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
@@ -166,7 +194,7 @@ const heroData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_5.png',
         index: '05',
-        title: 'Neurology',
+        title: 'CSR 5',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
@@ -174,7 +202,7 @@ const heroData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_6.png',
         index: '06',
-        title: 'Ophthalmology',
+        title: 'CSR 6',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
@@ -182,7 +210,7 @@ const heroData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_7.png',
         index: '07',
-        title: 'Dental Care',
+        title: 'CSR 7',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
@@ -190,21 +218,21 @@ const heroData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_8.png',
         index: '08',
-        title: 'Cardiology',
+        title: 'CSR 8',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
     ],
     footerIcon: '/assets/img/icons/service_footer_icon_1.png',
     footerText:
-      'Delivering tomorrow’s health care for your family.<br>medical this View',
+      'Partnering with communities to better life',
     footerLink: '/',
     footerLinkText: 'SEE MORE',
   };
   
   const teamData = {
-    subtitle: 'OUR TEAM MEMBER',
-    title: 'Meet Our Specialist This <br />Doctor Meeting',
+    subtitle: 'OUR MEMBERS',
+    title: 'Meet The Decagon Pride Group <br />Team Members',
     sliderData: [
       {
         name: 'Dr. Norma Pedric',
@@ -269,44 +297,44 @@ const heroData = {
   ];
   
   const sectionData = {
-    subtitle: 'WHY CHOOSE US',
-    title: 'Medical Ready To Get This <br /> Health Solution.',
+    subtitle: 'WHY DECAGON PRIDE',
+    title: 'The Pride Counts!',
     services: [
       {
         iconUrl: '/assets/img/icons/service_icon_9.png',
-        title: 'Expert Care',
+        title: 'Pride Point 1',
         subtitle: 'Medical competitor research startup to financial',
       },
       {
         iconUrl: '/assets/img/icons/service_icon_10.png',
-        title: 'Emergency Help',
+        title: 'Pride Point 2',
         subtitle: 'Medical competitor research startup to financial',
       },
       {
         iconUrl: '/assets/img/icons/service_icon_11.png',
-        title: 'Qualified Doctors',
+        title: 'Pride Point 3',
         subtitle: 'Medical competitor research startup to financial',
       },
       {
         iconUrl: '/assets/img/icons/service_icon_12.png',
-        title: 'Medical Advices',
+        title: 'Pride Point 4',
         subtitle: 'Medical competitor research startup to financial',
       },
       {
         iconUrl: '/assets/img/icons/service_icon_13.png',
-        title: 'Medical Research',
+        title: 'Pride Point 5',
         subtitle: 'Medical competitor research startup to financial',
       },
       {
         iconUrl: '/assets/img/icons/service_icon_14.png',
-        title: 'Affordable Prices',
+        title: 'Pride Point 6',
         subtitle: 'Medical competitor research startup to financial',
       },
     ],
   };
   
   const projectData = {
-    title: 'All The Great Work That<br> Medical Service',
+    title: 'All The Great Work At<br>Decagon Pride',
     subtitle: 'OUR PORTFOLIO',
     description:
       'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
@@ -427,12 +455,12 @@ const heroData = {
   const ctaData1 = {
     videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
     videoButtonText: 'WATCH VIDEO',
-    subtitle: 'OUR WATCH VIDEO',
-    title: 'Professional Medical Care Measure Medical.',
+    subtitle: 'OUR HIGHLIGHT VIDEO',
+    title: 'A word from the DPG chairperson',
     description:
       'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
     buttonLink: '/contact',
-    buttonText: 'Video More',
+    buttonText: 'More Videos',
     brandImage: '/assets/img/medical_brand.png',
   };
   
@@ -443,22 +471,22 @@ const heroData = {
       {
         href: 'brain_althim',
         iconUrl: '/assets/img/icons/tab_link_icon_1.png',
-        label: 'Modern Technology',
+        label: 'Financial Empowerment',
       },
       {
         href: 'emergency',
         iconUrl: '/assets/img/icons/tab_link_icon_2.png',
-        label: 'Success of Treatment',
+        label: 'Welfare Support',
       },
       {
         href: 'heart_beat',
         iconUrl: '/assets/img/icons/tab_link_icon_3.png',
-        label: 'Certified Doctors',
+        label: 'Community Engagement',
       },
       {
         href: 'blood_test',
         iconUrl: '/assets/img/icons/tab_link_icon_4.png',
-        label: 'Medical Advice',
+        label: 'Sustainability & Growth',
       },
     ],
     tabsData: [
@@ -543,7 +571,7 @@ const heroData = {
   };
   
   const blogsData = {
-    sectionTitle: 'OUR LARGEST BLOG',
+    sectionTitle: 'OUR BLOG',
     sectionSubtitle: 'Latest Posts &amp; Articles',
     postsData: [
       {

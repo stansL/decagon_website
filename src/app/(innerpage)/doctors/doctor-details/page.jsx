@@ -57,8 +57,8 @@ const headingData = {
   };
   
   const teamData = {
-    subtitle: 'OUR TEAM MEMBER',
-    title: ' Meet Our Specialist This <br />Doctor Meeting',
+    subtitle: 'OUR MEMBERS',
+    title: ' Meet The Decagon Pride Group <br />Team Members',
     sliderData: [
       {
         name: 'Dr. Norma Pedric',

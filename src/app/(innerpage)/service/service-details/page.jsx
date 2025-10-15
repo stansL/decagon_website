@@ -53,27 +53,27 @@ const headingData = {
   const counterData = [
     {
       iconSrc: "/assets/img/icons/counter_icon_1.png",
-      countTo: 567,
+      countTo: 11,
       suffix: "+",
-      title: "Active Clients",
+      title: "Active Members",
     },
     {
       iconSrc: "/assets/img/icons/counter_icon_2.png",
       countTo: 23,
       suffix: "K+",
-      title: "Team Support",
+      title: "Contributions",
     },
     {
       iconSrc: "/assets/img/icons/counter_icon_3.png",
-      countTo: 241,
+      countTo: 5,
       suffix: "+",
-      title: "Projects Completed",
+      title: "Investment Portfolios",
     },
     {
       iconSrc: "/assets/img/icons/counter_icon_4.png",
-      countTo: 16,
-      suffix: "K+",
-      title: "Award winner",
+      countTo: 4,
+      suffix: "+",
+      title: "Get Togethers",
     },
   ];
 

@@ -8,7 +8,7 @@ const headingData = {
   };
   
   const blogsSectionData = {
-    sectionSubtitle: 'OUR LARGEST BLOG',
+    sectionSubtitle: 'OUR BLOG',
     sectionTitle: 'Latest Posts &amp; Articles',
   
     blogsData: [

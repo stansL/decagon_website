@@ -56,10 +56,10 @@ const HeroData = {
   
   const aboutData = {
     sectionSubtitle: 'OUR ABOUT US',
-    sectionTitle: 'More Than 26+ Years About Provide Medical.',
+    sectionTitle: 'More Than 9+ Years About Provide Medical.',
     aboutText:
       'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
-    experienceYears: '26+',
+    experienceYears: '9+',
     experienceTitle: 'Experience',
   
     iconUrl: '/assets/img/icons/about_icon_1.png',
@@ -124,7 +124,7 @@ const HeroData = {
       },
       {
         iconSrc: '/assets/img/icons/service_icon_16.png',
-        title: 'Orthopedic',
+        title: 'CSR 2',
         subtitle:
           'Medical competitor research doctor healthy service<br> startup to financial',
         link: '/service/service-details',
@@ -132,7 +132,7 @@ const HeroData = {
       },
       {
         iconSrc: '/assets/img/icons/service_icon_17.png',
-        title: 'Hematology',
+        title: 'CSR 3',
         subtitle:
           'Medical competitor research doctor healthy service<br> startup to financial',
         link: '/service/service-details',
@@ -140,7 +140,7 @@ const HeroData = {
       },
       {
         iconSrc: '/assets/img/icons/service_icon_18.png',
-        title: 'Plastic Surgery',
+        title: 'CSR 4',
         subtitle:
           'Medical competitor research doctor healthy service<br> startup to financial',
         link: '/service/service-details',
