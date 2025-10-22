@@ -1,6 +1,6 @@
 # Decagon Website
 
-A modern medical and health website template built with Next.js 14, featuring multiple homepage variants, responsive design, and interactive components.
+Built using a modern template running on Next.js 14, featuring multiple homepage variants, responsive design, and interactive components.
 
 ## 🚀 Features
 
@@ -107,7 +107,7 @@ The website includes three different homepage designs:
 - **Home**: `/` - Main homepage
 - **About**: `/about` - About us page
 - **Services**: `/service` - Services overview
-- **Doctors**: `/doctors` - Team/doctors page
+- **Members**: `/members` - Team/members page
 - **Contact**: `/contact` - Contact form and location map
 - **Blog**: `/blog` - Blog listing
 - **Appointments**: `/appointments` - Appointment booking
