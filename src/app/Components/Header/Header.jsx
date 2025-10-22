@@ -39,7 +39,7 @@ const Header = ({ isTopBar, variant }) => {
           { label: 'About Us', href: '/about' },
           { label: 'Group Welfare', href: '/about' },
           { label: 'Investment Kitty', href: '/about' },
-          { label: 'Member Login', href: '/decasoft' },
+          { label: 'Members Portal', href: '/decasoft' },
         ],
       },
       {
