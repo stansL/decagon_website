@@ -62,9 +62,9 @@ const Header = ({ isTopBar, variant }) => {
         label: 'CSR',
         href: '/',
         subItems: [
-          { label: 'CSR 1', href: '/' },
-          { label: 'CSR 2', href: '/' },
-          { label: 'CSR 3', href: '/' },
+          { label: 'Educational Support', href: '/' },
+          { label: 'Environment Conservation', href: '/' },
+          { label: 'Dignity Kit - Girl Child', href: '/' },
         ],
       },
       {
@@ -72,8 +72,8 @@ const Header = ({ isTopBar, variant }) => {
         href: '/',
         subItems: [
           { label: 'Appointments', href: '/appointments' },
-          { label: 'Doctors', href: '/doctors' },
-          { label: 'Doctor Details', href: '/doctors/doctor-details' },
+          { label: 'Members', href: '/doctors' },
+          { label: 'Member Details', href: '/doctors/doctor-details' },
           { label: 'Timetable', href: '/timetable' },
           { label: 'Portfolio', href: '/portfolio' },
           { label: 'Contact', href: '/contact' },

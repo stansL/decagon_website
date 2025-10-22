@@ -33,7 +33,7 @@ const headingData = {
         backgroundImage: '/assets/img/service_bg.jpg',
         iconUrl: '/assets/img/icons/service_icon_3.png',
         index: '03',
-        title: 'CSR 3',
+        title: 'Dignity Kit',
         subtitle: 'Medical competitor research startup to financial',
         link: '/service/service-details',
       },
