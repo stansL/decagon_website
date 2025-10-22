@@ -13,7 +13,7 @@ import {
 
 
 const headingData = {
-    title: 'Doctor Details',
+    title: 'Member Details',
   };
   
   const doctorDetails = {
