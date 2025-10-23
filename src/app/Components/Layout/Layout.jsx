@@ -1,12 +1,11 @@
-import { Outlet } from 'react-router-dom';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
-const Layout = ({ isTopBar, variant }) => {
+const Layout = ({ children, isTopBar, variant }) => {
   return (
     <div>
       <Header isTopBar={isTopBar} variant={variant} />
-      <Outlet />
+      {children}
       <Footer />
     </div>
   );

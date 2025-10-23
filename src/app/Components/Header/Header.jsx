@@ -39,7 +39,7 @@ const Header = ({ isTopBar, variant }) => {
           { label: 'About Us', href: '/about' },
           { label: 'Group Welfare', href: '/about' },
           { label: 'Investment Kitty', href: '/about' },
-          { label: 'Members Portal', href: '/decasoft' },
+          { label: 'Members Portal', href: 'https://portal.decagonpride.com/', external: true },
         ],
       },
       {
@@ -203,14 +203,27 @@ const Header = ({ isTopBar, variant }) => {
                           >
                             {item.subItems.map((subItem, subIndex) => (
                               <li key={subIndex}>
-                                <Link
-                                  href={subItem.href}
-                                  onClick={() =>
-                                    setIsShowMobileMenu(!isShowMobileMenu)
-                                  }
-                                >
-                                  {subItem.label}
-                                </Link>
+                                {subItem.external ? (
+                                  <a
+                                    href={subItem.href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    onClick={() =>
+                                      setIsShowMobileMenu(!isShowMobileMenu)
+                                    }
+                                  >
+                                    {subItem.label}
+                                  </a>
+                                ) : (
+                                  <Link
+                                    href={subItem.href}
+                                    onClick={() =>
+                                      setIsShowMobileMenu(!isShowMobileMenu)
+                                    }
+                                  >
+                                    {subItem.label}
+                                  </Link>
+                                )}
                               </li>
                             ))}
                           </ul>
