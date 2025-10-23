@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
-import Layout from './Components/Layout/Layout';
 import Section from './Components/Section';
 
 const NotFound = () => {
 
   return (
-    <Layout isTopBar={true}>
+    <>
       {/* Error Content */}
       <Section
         topSpaceLg="120"
@@ -48,7 +47,7 @@ const NotFound = () => {
           </div>
         </div>
       </Section>
-    </Layout>
+    </>
   );
 };
 
