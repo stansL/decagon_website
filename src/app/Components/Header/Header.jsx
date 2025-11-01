@@ -39,7 +39,7 @@ const Header = ({ isTopBar, variant }) => {
           { label: 'About Us', href: '/about' },
           { label: 'Group Welfare', href: '/about' },
           { label: 'Investment Kitty', href: '/about' },
-          { label: 'Members Portal', href: 'https://portal.decagonpride.com/', external: true },
+          { label: 'Members Portal', href: 'https://members.decagonpride.com/', external: true },
         ],
       },
       {
@@ -76,6 +76,7 @@ const Header = ({ isTopBar, variant }) => {
           { label: 'Member Details', href: '/doctors/doctor-details' },
           { label: 'Timetable', href: '/timetable' },
           { label: 'Portfolio', href: '/portfolio' },
+          { label: 'Downloads', href: '/downloads' },
           { label: 'Contact', href: '/contact' },
         ],
       },
