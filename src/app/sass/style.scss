@@ -195,6 +195,133 @@
 /*--------------------------------
  Downloads Page Styles
  -------------------------------*/
+
+/* Filter Section */
+.cs_downloads_filter {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
+}
+
+.cs_filter_header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.cs_filter_icon {
+  font-size: 20px;
+  color: #4285f4;
+}
+
+.cs_filter_label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.cs_filter_controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.cs_filter_group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.cs_filter_title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cs_filter_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cs_filter_btn {
+  padding: 8px 20px;
+  border: 2px solid #e0e0e0;
+  background: #fff;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: #4285f4;
+    color: #4285f4;
+    background: #f8f9fa;
+  }
+
+  &.active {
+    background: #4285f4;
+    color: #fff;
+    border-color: #4285f4;
+  }
+}
+
+.cs_filter_select {
+  padding: 10px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #4285f4;
+    box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.1);
+  }
+
+  &:hover {
+    border-color: #4285f4;
+  }
+}
+
+.cs_filter_results {
+  text-align: center;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+}
+
+.cs_no_results {
+  text-align: center;
+  padding: 60px 20px;
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 25px;
+  }
+}
+
+/* Download Cards */
 .cs_download_card {
   background: #fff;
   border-radius: 15px;
@@ -258,7 +385,8 @@
 }
 
 .cs_download_file_type,
-.cs_download_file_size {
+.cs_download_file_size,
+.cs_download_file_date {
   font-size: 13px;
   font-weight: 600;
   color: #4285f4;
@@ -280,6 +408,19 @@
 }
 
 @media (max-width: 991px) {
+  .cs_downloads_filter {
+    padding: 20px;
+  }
+
+  .cs_filter_controls {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cs_filter_group {
+    min-width: 100%;
+  }
+
   .cs_download_card {
     flex-direction: column;
     text-align: center;
@@ -301,6 +442,20 @@
 }
 
 @media (max-width: 575px) {
+  .cs_filter_header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cs_filter_buttons {
+    justify-content: center;
+  }
+
+  .cs_filter_btn {
+    font-size: 13px;
+    padding: 6px 15px;
+  }
+
   .cs_download_card_title {
     font-size: 18px;
   }
