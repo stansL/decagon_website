@@ -25,13 +25,13 @@ const downloadsData = [
   },
   {
     id: 2,
-    title: 'October 2024 Meeting Minutes',
-    description: 'Minutes from the October 2024 group meeting',
+    title: 'October 2025 Meeting Minutes',
+    description: 'Minutes from the October 2025 group meeting',
     fileSize: '1.8 MB',
     fileType: 'PDF',
-    date: '05/10/24',
+    date: '05/10/25',
     category: 'Minutes',
-    downloadLink: '/downloads/meeting-minutes-oct-2024.pdf',
+    downloadLink: '/downloads/meeting-minutes-oct-2025.pdf',
     icon: <FaFilePdf />,
   },
   {
